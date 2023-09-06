@@ -1,0 +1,29 @@
+{
+  "name": "comic-sounds",
+  "version": "1.0.0",
+  "description": "Comic Sounds - funny audios",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jooaodias/comic-sounds.git"
+  },
+  "keywords": [
+    "comic"
+  ],
+  "author": "Joao Aleixo",
+  "license": "MIT",
+  "bin": {
+    "patrik": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jooaodias/comic-sounds/issues"
+  },
+  "homepage": "https://github.com/jooaodias/comic-sounds#readme",
+  "dependencies": {
+    "ramda": "^0.26.1",
+    "randa": "^0.0.3"
+  }
+}
