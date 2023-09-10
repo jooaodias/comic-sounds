@@ -1,6 +1,6 @@
 {
   "name": "comic-sounds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Comic Sounds - funny audios",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/jooaodias/comic-sounds#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "ramda": "^0.26.1",
     "randa": "^0.0.3"
   }
