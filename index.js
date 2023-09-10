@@ -14,7 +14,7 @@ const mainPath = path.dirname(fs.realpathSync(__filename));
 
 const sound = function (option) {
     const optionSelected = { patrik: 'patrik', ze: "zedamanga" }
-    const soundPath = path.join(mainPath, `./${optionSelected[option]}`);
+    const soundPath = path.join(mainPath, `./audios/${optionSelected[option]}`);
     const linuxcmd = R.join('', ['paplay ', soundPath, '.ogg']);
     const windowscmd = R.join('', [path.join(mainPath, './forWindows.vbs'), ' ', soundPath, '.mp3']);
     const maccmd = R.join('', ['afplay ', soundPath, '.mp3']);
